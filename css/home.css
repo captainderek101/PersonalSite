@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Unbounded';
+    src: url(../fonts/Unbounded-VariableFont_wght.ttf);
+}
+
+.main {
+    /* background-color: rgb(233, 196, 106); */
+    background: linear-gradient(to bottom right, rgb(244, 162, 97), rgb(231, 111, 81));
+}
+
+.title {
+    font-family: Unbounded;
+    color: rgb(38, 70, 83);
+    text-shadow: -1px 1px 0px white; /* x offset, y offset, blur, color */
+    text-align: center;
+}
+
+.subtitle {
+    font-family: Unbounded;
+    text-align: center;
+    color: rgb(38, 70, 83);
+}
+
+.textbox {
+    font-family: Unbounded;
+    font-size: large;
+    color: rgb(42, 157, 143);
+    width: fit-content;
+    background-color: rgb(244, 162, 97);
+    background-size: cover;
+    outline: solid;
+    outline-color: rgb(233, 196, 106);
+    /* outline-offset: 2px; */
+    margin-bottom: 18px;
+}
